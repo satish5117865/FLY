@@ -1,0 +1,148 @@
+body {
+  background-color: lightblue;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.site-container {
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px grey solid;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.img-large {
+  max-width: 100%;
+}
+
+.img-thumbnail {
+  height: 80px;
+}
+
+.small-container {
+  max-width: 600px;
+}
+
+.check-out > div {
+  border-bottom: 0.2rem solid red;
+  color: red;
+}
+
+.check-out > div.active {
+  border-bottom: 0.2rem solid green;
+  color: black;
+}
+
+.card-img-top {
+  background-color: lightblue;
+}
+/*sidebar styles*/
+
+.navbar-brand {
+  font-weight: bold;
+}
+.side-navbar {
+  position: absolute;
+  left: -300px;
+  width: 240px;
+  height: 100%;
+  background-color: #100901;
+  transition: 0.5s;
+}
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+
+.active-nav {
+  left: 0;
+}
+
+.text-bold {
+  font-weight: bold;
+  text-decoration: none;
+  color: #100901;
+}
+
+.type {
+  text-decoration: none;
+}
+
+.max {
+  margin: 0.5rem;
+}
+
+.type2 {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  display: block;
+}
+
+.type1 :hover {
+  background-color: darkgray;
+}

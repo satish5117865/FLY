@@ -1,0 +1,25 @@
+{
+  "name": "fly",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/satish5117865/FLY#readme",
+  "bugs": {
+    "url": "https://github.com/satish5117865/FLY/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satish5117865/FLY.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd backend && npm install &&  cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "react-google-charts": "^5.2.1"
+  }
+}
